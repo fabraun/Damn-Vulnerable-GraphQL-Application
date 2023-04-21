@@ -1,0 +1,1255 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:d85474d3-db4c-4bce-acd8-dcdac2b8b7e8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-04-21T10:36:15.468Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.2.4"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ]
+  },
+  "components": [
+    {
+      "publisher": "",
+      "group": "",
+      "name": "aniso8601",
+      "version": "7.0.0",
+      "description": "A library for parsing ISO 8601 strings.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d10a4bf949f619f719b227ef5386e31f49a2b6d453004b21f02661ccc8670c7b"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/aniso8601@7.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://bitbucket.org/nielsenb/aniso8601"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/aniso8601@7.0.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "attrs",
+      "version": "21.4.0",
+      "description": "Classes Without Boilerplate",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2d27e3784d7a565d36ab851fe94887c5eccd6a463168875832a1be79c82828b4"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/attrs@21.4.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/attrs@21.4.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "certifi",
+      "version": "2020.12.5",
+      "description": "Python package for providing Mozilla's CA Bundle.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0",
+            "url": "https://opensource.org/licenses/MPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/certifi@2020.12.5",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/certifi/python-certifi"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2020.12.5"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "chardet",
+      "version": "4.0.0",
+      "description": "Universal encoding detector for Python 3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/chardet@4.0.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/chardet/chardet"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/chardet@4.0.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "click",
+      "version": "7.1.2",
+      "description": "Composable command line interface toolkit",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/click@7.1.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/p/click/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/click@7.1.2"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Flask",
+      "version": "1.1.2",
+      "description": "A simple framework for building complex web applications.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8a4fdd8936eba2512e9c85df320a37e694c93945b33ef33c89946a340a238557"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/flask@1.1.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/p/flask"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/flask@1.1.2"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Flask-Cors",
+      "version": "3.0.10",
+      "description": "A Flask extension adding a decorator for CORS support",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "74efc975af1194fc7891ff5cd85b0f7478be4f7f59fe158102e91abb72bb4438"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/flask-cors@3.0.10",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/corydolphin/flask-cors"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/flask-cors@3.0.10"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Flask-GraphQL",
+      "version": "2.0.1",
+      "description": "Adds GraphQL support to your Flask application",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "825578c044df436cd74503a38bbd31c919a90acda5e9b6e0e45736964bc5235d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/flask-graphql@2.0.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/graphql-python/flask-graphql"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/flask-graphql@2.0.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Flask-GraphQL-Auth",
+      "version": "1.3.2",
+      "description": "JWT library for Flask-GraphQL",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "354f16d51c24d05af4924a7d6aa48b3ea04566c4cb7f6b0d31bbd117364c1f2b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/flask-graphql-auth@1.3.2",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/NovemberOscar/Flask-GraphQL-Auth"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/flask-graphql-auth@1.3.2"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Flask-Sockets",
+      "version": "0.2.1",
+      "description": "Elegant WebSockets for your Flask apps.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "350a76d55f5889f64afd2ca9b32f262680b7960965f0830365576307d30cfe1e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "See License"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/flask-sockets@0.2.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/kennethreitz/flask-sockets"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/flask-sockets@0.2.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Flask-SQLAlchemy",
+      "version": "2.4.4",
+      "description": "Add SQLAlchemy support to your Flask application.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "05b31d2034dd3f2a685cbbae4cfc4ed906b2a733cff7964ada450fd5e462b84e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/flask-sqlalchemy@2.4.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/flask-sqlalchemy@2.4.4"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "gevent",
+      "version": "21.12.0",
+      "description": "Coroutine-based network library",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2afa3f3ad528155433f6ac8bd64fa5cc303855b97004416ec719a6b1ca179481"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/gevent@21.12.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.gevent.org/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/gevent@21.12.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "gevent-websocket",
+      "version": "0.10.1",
+      "description": "Websocket handler for the gevent pywsgi server, a Python network library",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "17b67d91282f8f4c973eba0551183fc84f56f1c90c8f6b6b30256f31f66f5242"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Copyright 2011-2017 Jeffrey Gelens <jeffrey@noppo.pro>"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/gevent-websocket@0.10.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://www.gitlab.com/noppo/gevent-websocket"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/gevent-websocket@0.10.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "graphene",
+      "version": "2.1.8",
+      "description": "GraphQL Framework for Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "09165f03e1591b76bf57b133482db9be6dac72c74b0a628d3c93182af9c5a896"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/graphene@2.1.8",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/graphql-python/graphene"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/graphene@2.1.8"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "graphene-sqlalchemy",
+      "version": "2.3.0",
+      "description": "Graphene SQLAlchemy integration",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "97ed52bc0d01d757df50d25b5bdd490a2327778d41223d4e084d38a239925e8e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/graphene-sqlalchemy@2.3.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/graphql-python/graphene-sqlalchemy"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/graphene-sqlalchemy@2.3.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "graphql-core",
+      "version": "2.3.2",
+      "description": "GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "44c9bac4514e5e30c5a595fac8e3c76c1975cae14db215e8174c7fe995825bad"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/graphql-core@2.3.2",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/graphql-python/graphql-core"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/graphql-core@2.3.2"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "graphql-relay",
+      "version": "2.0.1",
+      "description": "Relay library for graphql-core",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ac514cb86db9a43014d7e73511d521137ac12cf0101b2eaa5f0a3da2e10d913d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/graphql-relay@2.0.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/graphql-python/graphql-relay-py"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/graphql-relay@2.0.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "graphql-server-core",
+      "version": "1.2.0",
+      "description": "GraphQL Server tools for powering your server",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "04ee90da0322949f7b49ff6905688e3a21a9efbd5a7d7835997e431a0afdbd11"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/graphql-server-core@1.2.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/graphql-python/graphql-server-core"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/graphql-server-core@1.2.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "graphql-ws",
+      "version": "0.4.4",
+      "description": "Websocket backend for GraphQL subscriptions",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b6f4c9f6968feba80762354068a2a36538a48ac72e4253971be43e0cba020506"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/graphql-ws@0.4.4",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/graphql-python/graphql-ws"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/graphql-ws@0.4.4"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "greenlet",
+      "version": "1.1.2",
+      "description": "Lightweight in-process concurrent programming",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "58df5c2a0e293bf665a51f8a100d3e9956febfbf1d9aaf8c0677cf70218910c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/greenlet@1.1.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://greenlet.readthedocs.io/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/greenlet@1.1.2"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "idna",
+      "version": "2.10",
+      "description": "Internationalized Domain Names in Applications (IDNA)",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/idna@2.10",
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@2.10"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "iniconfig",
+      "version": "1.1.1",
+      "description": "brain-dead simple config-ini parsing",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/iniconfig@1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/iniconfig@1.1.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "itsdangerous",
+      "version": "1.1.0",
+      "description": "Safely pass data to untrusted environments and back.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b12271b2047cb23eeb98c8b5622e2e5c5e9abd9784a153e9d8ef9cb4dd09d749"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/itsdangerous@1.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/p/itsdangerous/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/itsdangerous@1.1.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Jinja2",
+      "version": "2.11.2",
+      "description": "A very fast and expressive template engine.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f0a4641d3cf955324a89c04f3d94663aa4d638abe8f733ecd3582848e1c37035"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/jinja2@2.11.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/p/jinja/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/jinja2@2.11.2"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "MarkupSafe",
+      "version": "1.1.1",
+      "description": "Safely add untrusted strings to HTML/XML markup.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "09027a7803a62ca78792ad89403b1b7a73a01c8cb65909cd876f7fcebd79b161"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/markupsafe@1.1.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/p/markupsafe/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/markupsafe@1.1.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "packaging",
+      "version": "21.3",
+      "description": "Core utilities for Python packages",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/packaging@21.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/packaging@21.3"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "pluggy",
+      "version": "1.0.0",
+      "description": "plugin and hook calling mechanisms for python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pluggy@1.0.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/pytest-dev/pluggy"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pluggy@1.0.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "promise",
+      "version": "2.3",
+      "description": "Promises/A+ implementation for Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dfd18337c523ba4b6a58801c164c1904a9d4d1b1747c7d5dbf45b693a49d93d0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/promise@2.3",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/syrusakbary/promise"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/promise@2.3"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "py",
+      "version": "1.11.0",
+      "description": "library with cross-python path, ini-parsing, io, code, log facilities",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "607c53218732647dff4acdfcd50cb62615cedf612e72d1724fb1a0cc6405b378"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/py@1.11.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://py.readthedocs.io/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/py@1.11.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "PyJWT",
+      "version": "1.7.1",
+      "description": "JSON Web Token implementation in Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5c6eca3c2940464d106b99ba83b00c6add741c9becaec087fb7ccdefea71350e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pyjwt@1.7.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/jpadilla/pyjwt"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyjwt@1.7.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "pyparsing",
+      "version": "3.0.9",
+      "description": "pyparsing module - Classes and methods to define and execute parsing grammars",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/pyparsing@3.0.9",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyparsing@3.0.9"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Pypubsub",
+      "version": "4.0.3",
+      "description": "Python Publish-Subscribe Package",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7f716bae9388afe01ff82b264ba8a96a8ae78b42bb1f114f2716ca8f9e404e2a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pypubsub@4.0.3",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/schollii/pypubsub"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pypubsub@4.0.3"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "pytest",
+      "version": "7.0.1",
+      "description": "pytest: simple powerful testing with Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9ce3ff477af913ecf6321fe337b93a2c0dcf2a0a1439c43f5452112c1e4280db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pytest@7.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://docs.pytest.org/en/latest/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest@7.0.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "pytest-flask",
+      "version": "1.2.0",
+      "description": "A set of py.test fixtures to test Flask applications.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fe25b39ad0db09c3d1fe728edecf97ced85e774c775db259a6d25f0270a4e7c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pytest-flask@1.2.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/pytest-dev/pytest-flask"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-flask@1.2.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "requests",
+      "version": "2.25.1",
+      "description": "Python HTTP for Humans.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.25.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://requests.readthedocs.io"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.25.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Rx",
+      "version": "1.6.1",
+      "description": "Reactive Extensions (Rx) for Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7357592bc7e881a95e0c2013b73326f704953301ab551fbc8133a6fadab84105"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/rx@1.6.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://reactivex.io"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/rx@1.6.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "singledispatch",
+      "version": "3.4.0.3",
+      "description": "Backport functools.singledispatch to older Pythons.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "833b46966687b3de7f438c761ac475213e53b306740f1abfaa86e1d1aae56aa8"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/singledispatch@3.4.0.3",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/jaraco/singledispatch"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/singledispatch@3.4.0.3"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "six",
+      "version": "1.15.0",
+      "description": "Python 2 and 3 compatibility utilities",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/six@1.15.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/benjaminp/six"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.15.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "SQLAlchemy",
+      "version": "1.3.22",
+      "description": "Database Abstraction Library",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "61628715931f4962e0cdb2a7c87ff39eea320d2aa96bd471a3c293d146f90394"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/sqlalchemy@1.3.22",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.sqlalchemy.org"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/sqlalchemy@1.3.22"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "tomli",
+      "version": "1.2.3",
+      "description": "A lil' TOML parser",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e3069e4be3ead9668e21cb9b074cd948f7b3113fd9c8bba083f48247aab8b11c"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/tomli@1.2.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/tomli@1.2.3"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "urllib3",
+      "version": "1.26.3",
+      "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1b465e494e3e0d8939b50680403e3aedaa2bc434b7d5af64dfd3c958d7f5ae80"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@1.26.3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://urllib3.readthedocs.io/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@1.26.3"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "Werkzeug",
+      "version": "1.0.1",
+      "description": "The comprehensive WSGI web application library.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2de2a5db0baeae7b2d2664949077c2ac63fbd16d98da0ff71837f7d1dea3fd43"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/werkzeug@1.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/p/werkzeug/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/werkzeug@1.0.1"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "zope.event",
+      "version": "4.5.0",
+      "description": "Very basic event publishing system",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2666401939cdaa5f4e0c08cf7f20c9b21423b95e88f4675b1443973bdb080c42"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ZPL-2.1",
+            "url": "https://opensource.org/licenses/ZPL-2.1"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/zope.event@4.5.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/zopefoundation/zope.event"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/zope.event@4.5.0"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "zope.interface",
+      "version": "5.4.0",
+      "description": "Interfaces for Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7df1e1c05304f26faa49fa752a8c690126cf98b40b91d54e6e9cc3b7d6ffe8b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "ZPL 2.1"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/zope.interface@5.4.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/zopefoundation/zope.interface"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/zope.interface@5.4.0"
+    }
+  ],
+  "dependencies": [],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": "Damn-Vulnerable-GraphQL-Application/",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/home/fbraun/Damn-Vulnerable-GraphQL-Application/requirements.txt",
+      "comment": "Package file"
+    }
+  ]
+}
